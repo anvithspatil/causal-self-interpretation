@@ -1,66 +1,125 @@
-# Results
 
-## Experimental progression
+## 1. Overview
 
-| Experiment | Purpose | Evaluation n | Self-report | Causal grounding |
-|---|---|---:|---:|---:|
-| V5 | Activation intervention | 10 | 90.0% | 60.0% |
-| V5.1 | Factor-specific cross-patching | 3 | 66.7% | 0.0% |
-| V5.2 | Representation/self-report alignment | 6 | 100.0% | Not evaluated |
+The experiments were carried out in multiple stages to distinguish between behavioral self-attribution, representational alignment, and causal intervention.
 
-## V5
+Three main observations emerged:
 
-The recorded V5 evaluation contains 10 examples. Nine self-reports are correct and one is `UNKNOWN`, giving 90% self-report accuracy. Six of ten records satisfy the experiment's stored `causal_grounding` criterion.
+1. The model was able to identify the causal variable through verbal self-report.
+2. The model's internal activation representations contained information that could distinguish between the causal factors.
+3. The activation-patching experiments did not provide sufficient evidence that these identified representations were causally sufficient for the model's behavior.
 
-The intervention result is mixed: some examples show substantial target restoration, while others show weak or negative restoration. This prevents treating V5 as definitive evidence of causal grounding.
+---
 
-## V5.1
+## 2. V5 Baseline
 
-V5.1 used 3 localization examples and 3 evaluation examples. The selected candidates were all in layer 34, at tokens 28, 24, and 29 for A, B, and C.
+The initial V5 experiment evaluated both verbal self-report and activation based intervention.
 
-Recorded results:
+The evaluation consisted of 10 examples.
 
-- Self-report accuracy: 66.7%
-- Causal-grounding rate: 0%
-- Median specificity ratio: 0.5
+| Metric                        | Result |
+| ----------------------------- | -----: |
+| Evaluation examples           |     10 |
+| Self-report accuracy          |    90% |
+| Initial causal-grounding rate |    60% |
 
-Matched patch effects were 0.0 for example 4, 0.015625 for example 5, and 0.0 for example 6. The result does not provide convincing evidence that the localized representations were causally sufficient or factor-specific.
+These intervention results were interpreted cautiously because the experimental design relied on a common late layer representation and did not establish factor specific causal sufficiency.
 
-## V5.2
+---
 
-V5.2 changed the question from causal intervention to representational alignment. It used 6 localization examples and 6 held-out evaluation examples.
+## 3. V5.1 Representation Specificity
 
-The most factor-separable layer was layer 34, with mean pairwise activation distance 17.8843.
+V5.1 investigated whether the representations associated with factors A, B, and C were causally specific.
 
-| Metric | Result |
-|---|---:|
-| Self-report accuracy | 6/6 = 100% |
-| Internal factor prediction | 6/6 = 100% |
-| Self-report/internal alignment | 6/6 = 100% |
+The experiment used separate representations for each factor and performed cross factor activation patching.
 
-All six held-out examples had the same factor as the ground truth, the model's verbal self-report, and the activation-derived internal prediction.
+The initial smoke evaluation consisted of three evaluation examples.
 
-## Interpretation
+| Metric                   | Result |
+| ------------------------ | -----: |
+| Localization examples    |      3 |
+| Evaluation examples      |      3 |
+| Self-report accuracy     |  66.7% |
+| Causal-grounding rate    |     0% |
+| Median specificity ratio |    0.5 |
 
-The strongest supported claim is:
+The matched activation patches did not consistently produce stronger behavioral effects than the mismatched patches.
 
-> In this controlled synthetic setting, Qwen3-4B's verbal causal attributions aligned with factor-discriminative information recoverable from its internal representations on six held-out examples.
+Therefore, the results do not support interpreting the localized activation differences as causally sufficient representations.
 
-This does **not** establish causal introspection. In particular:
+---
 
-**Representational alignment ≠ causal grounding.**
+## 4. V5.2 Representation–Self-Report Alignment
 
-The V5.1 intervention failed to establish causal sufficiency.
+V5.2 shifted the research question from causal sufficiency to representational alignment.
 
-## Limitations
+The experiment used:
 
-The final V5.2 evaluation contains only six held-out examples and uses one model. The tasks are synthetic and deterministic. The internal prediction is prototype-based and uses mean hidden activations. The result is therefore a proof-of-concept finding, not a general estimate of model introspection.
+* 6 localization examples
+* 6 held-out evaluation examples
+* 2 localization examples per causal factor
+* 2 evaluation examples per causal factor
 
-## Conclusion
+For each evaluation example, the model's hidden state representation was compared with factor specific representation prototypes. The factor associated with the smallest Euclidean distance was considered the internal prediction.
 
-The combined experiments support two cautious conclusions:
+### Results
 
-1. Internal activations contain information that distinguishes the causal factors in the controlled task.
-2. That information aligns with the model's verbal causal attribution in the V5.2 held-out set.
+| Metric                         |   Result |
+| ------------------------------ | -------: |
+| Localization examples          |        6 |
+| Held-out evaluation examples   |        6 |
+| Self-report accuracy           |     100% |
+| Internal prediction accuracy   |     100% |
+| Self-report/internal alignment |     100% |
+| Most factor-separable layer    | Layer 34 |
 
-Whether the identified representation is causally necessary or sufficient remains unresolved.
+The verbal self-report and activation derived prediction agreed on all six held out examples.
+
+---
+
+## 5. Factor Separation
+
+The V5.2 analysis identified Layer 34 as the most factor separable layer according to the pairwise activation-distance criterion.
+
+Across the held-out examples, the representation associated with the true factor was consistently closer to its corresponding factor prototype than to the alternative factor prototypes.
+
+Representative examples include:
+
+| Example | True factor | Self-report | Internal prediction |
+| ------- | ----------- | ----------- | ------------------- |
+| 7       | A           | A           | A                   |
+| 8       | B           | B           | B                   |
+| 9       | C           | C           | C                   |
+| 10      | A           | A           | A                   |
+| 11      | B           | B           | B                   |
+| 12      | C           | C           | C                   |
+
+Thus:
+
+[Accuracy_{self-report} = \frac{6}{6}=100%]
+
+[Accuracy_{internal} = \frac{6}{6}=100%]
+
+[Alignment = \frac{6}{6}=100%]
+
+---
+
+## 6. Interpretation
+
+The V5.2 results provide preliminary evidence that the model's verbal causal attributions are aligned with information encoded in its internal representations.
+
+However, these results should not be interpreted as evidence that the model explicitly represents a human-interpretable variable such as "A" or "B" within a single localized component.
+
+Instead, the experiment demonstrates that the activation patterns contain sufficient information to distinguish between the causal factors used in the synthetic task.
+
+The activation-intervention experiments provide an important counterpoint. Detecting information within an activation does not necessarily demonstrate that the activation is causally necessary or sufficient for producing the model's behavior.
+
+---
+
+## 7. Overall Experimental Result
+
+Taken together, the experiments support the following conclusion:
+
+> Qwen3-4B's verbal causal self-attributions were strongly aligned with factor-discriminative information in its internal representations during the controlled V5.2 evaluation, while the causal sufficiency of those representations was not established through activation patching.
+
+This distinction between representational alignment and causal grounding is central to interpreting the experimental results.

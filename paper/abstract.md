@@ -1,0 +1,7 @@
+Large language models can often provide verbal explanations for their decisions, but it remains unclear whether these explanations correspond to information encoded in their internal representations.
+We investigate this question using Qwen3 - 4B in a controlled synthetic environment where the causal variable determining each output is known exactly. 
+We construct contrastive examples by varying individual variables while keeping the underlying rule fixed.
+Our experiments proceed in several stages. First, we establish a behavioral baseline for verbal causal attribution. We then investigate internal representations using hidden state analysis and activation interventions. Finally, we compare the causal factor identified by the model's verbal self report with the factor predicted from its internal activation representation.
+In the final representation alignment experiment, the internally predicted causal factor agreed with the model's verbal attribution on 6/6 held out evaluation examples (100%). However, activation patching experiments did not provide sufficient evidence that the localized representations were causally sufficient for the model's behavior.
+Therefore, our results provide preliminary evidence for representation self report alignment, but do not establish that the model's verbal explanation is a faithful causal description of its computation.
+The study highlights the distinction between information being represented in a model and that information being causally responsible for its output.
