@@ -1,0 +1,250 @@
+{
+  "search_layers": [
+    24,
+    35
+  ],
+  "candidates": {
+    "A": {
+      "layer": 34,
+      "token": 28,
+      "mean_difference": 190.25,
+      "observations": 1
+    },
+    "B": {
+      "layer": 34,
+      "token": 24,
+      "mean_difference": 168.25,
+      "observations": 1
+    },
+    "C": {
+      "layer": 34,
+      "token": 29,
+      "mean_difference": 157.5,
+      "observations": 1
+    }
+  },
+  "raw_scores": {
+    "A": [
+      {
+        "example_id": 1,
+        "layer": 24,
+        "token": 28,
+        "activation_difference": 58.0625
+      },
+      {
+        "example_id": 1,
+        "layer": 25,
+        "token": 28,
+        "activation_difference": 66.0
+      },
+      {
+        "example_id": 1,
+        "layer": 26,
+        "token": 28,
+        "activation_difference": 72.5
+      },
+      {
+        "example_id": 1,
+        "layer": 27,
+        "token": 28,
+        "activation_difference": 85.0
+      },
+      {
+        "example_id": 1,
+        "layer": 28,
+        "token": 28,
+        "activation_difference": 98.8125
+      },
+      {
+        "example_id": 1,
+        "layer": 29,
+        "token": 28,
+        "activation_difference": 111.5625
+      },
+      {
+        "example_id": 1,
+        "layer": 30,
+        "token": 28,
+        "activation_difference": 130.125
+      },
+      {
+        "example_id": 1,
+        "layer": 31,
+        "token": 28,
+        "activation_difference": 148.25
+      },
+      {
+        "example_id": 1,
+        "layer": 32,
+        "token": 28,
+        "activation_difference": 172.125
+      },
+      {
+        "example_id": 1,
+        "layer": 33,
+        "token": 28,
+        "activation_difference": 185.0
+      },
+      {
+        "example_id": 1,
+        "layer": 34,
+        "token": 28,
+        "activation_difference": 190.25
+      },
+      {
+        "example_id": 1,
+        "layer": 35,
+        "token": 19,
+        "activation_difference": 38.03125
+      }
+    ],
+    "B": [
+      {
+        "example_id": 2,
+        "layer": 24,
+        "token": 24,
+        "activation_difference": 54.75
+      },
+      {
+        "example_id": 2,
+        "layer": 25,
+        "token": 24,
+        "activation_difference": 58.3125
+      },
+      {
+        "example_id": 2,
+        "layer": 26,
+        "token": 24,
+        "activation_difference": 71.1875
+      },
+      {
+        "example_id": 2,
+        "layer": 27,
+        "token": 24,
+        "activation_difference": 82.9375
+      },
+      {
+        "example_id": 2,
+        "layer": 28,
+        "token": 24,
+        "activation_difference": 87.4375
+      },
+      {
+        "example_id": 2,
+        "layer": 29,
+        "token": 24,
+        "activation_difference": 96.25
+      },
+      {
+        "example_id": 2,
+        "layer": 30,
+        "token": 24,
+        "activation_difference": 105.625
+      },
+      {
+        "example_id": 2,
+        "layer": 31,
+        "token": 24,
+        "activation_difference": 111.8125
+      },
+      {
+        "example_id": 2,
+        "layer": 32,
+        "token": 24,
+        "activation_difference": 133.5
+      },
+      {
+        "example_id": 2,
+        "layer": 33,
+        "token": 24,
+        "activation_difference": 151.5
+      },
+      {
+        "example_id": 2,
+        "layer": 34,
+        "token": 24,
+        "activation_difference": 168.25
+      },
+      {
+        "example_id": 2,
+        "layer": 35,
+        "token": 24,
+        "activation_difference": 33.34375
+      }
+    ],
+    "C": [
+      {
+        "example_id": 3,
+        "layer": 24,
+        "token": 29,
+        "activation_difference": 52.0
+      },
+      {
+        "example_id": 3,
+        "layer": 25,
+        "token": 29,
+        "activation_difference": 56.0
+      },
+      {
+        "example_id": 3,
+        "layer": 26,
+        "token": 29,
+        "activation_difference": 65.6875
+      },
+      {
+        "example_id": 3,
+        "layer": 27,
+        "token": 29,
+        "activation_difference": 80.125
+      },
+      {
+        "example_id": 3,
+        "layer": 28,
+        "token": 29,
+        "activation_difference": 82.8125
+      },
+      {
+        "example_id": 3,
+        "layer": 29,
+        "token": 29,
+        "activation_difference": 90.375
+      },
+      {
+        "example_id": 3,
+        "layer": 30,
+        "token": 29,
+        "activation_difference": 98.3125
+      },
+      {
+        "example_id": 3,
+        "layer": 31,
+        "token": 29,
+        "activation_difference": 104.125
+      },
+      {
+        "example_id": 3,
+        "layer": 32,
+        "token": 29,
+        "activation_difference": 122.8125
+      },
+      {
+        "example_id": 3,
+        "layer": 33,
+        "token": 29,
+        "activation_difference": 139.25
+      },
+      {
+        "example_id": 3,
+        "layer": 34,
+        "token": 29,
+        "activation_difference": 157.5
+      },
+      {
+        "example_id": 3,
+        "layer": 35,
+        "token": 29,
+        "activation_difference": 31.484375
+      }
+    ]
+  }
+}

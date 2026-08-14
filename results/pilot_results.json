@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Alice studied for 10 hours and Bob studied for 2 hours. Who studied more?",
+    "correct_answer": "Alice",
+    "target_factor": "study time",
+    "model_answer": "Alice studied more.",
+    "self_report": "The comparison of 10 hours to 2 hours"
+  },
+  {
+    "id": 2,
+    "question": "A red ball and a blue ball are on a table. Which ball is red?",
+    "correct_answer": "The red ball",
+    "target_factor": "color",
+    "model_answer": "the red ball",
+    "self_report": "the phrase \"a red ball\""
+  },
+  {
+    "id": 3,
+    "question": "Tom has 15 apples and gives away 5. How many apples does Tom have left?",
+    "correct_answer": "10",
+    "target_factor": "subtraction",
+    "model_answer": "Tom has 10 apples left.",
+    "self_report": "The specific factor that most influenced my answer is **Tom has 15 apples**."
+  },
+  {
+    "id": 4,
+    "question": "The train travels at 60 km/h for 2 hours. How far does it travel?",
+    "correct_answer": "120 km",
+    "target_factor": "speed and time",
+    "model_answer": "120 km",
+    "self_report": "The time duration of 2 hours"
+  },
+  {
+    "id": 5,
+    "question": "Sarah is older than Mike. Mike is older than John. Who is the youngest?",
+    "correct_answer": "John",
+    "target_factor": "age ordering",
+    "model_answer": "John",
+    "self_report": "Mike is older than John"
+  }
+]

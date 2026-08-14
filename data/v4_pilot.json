@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "rule": "OUTPUT = A",
+    "variables": {"A": 1, "B": 0, "C": 1},
+    "target": "A"
+  },
+  {
+    "id": 2,
+    "rule": "OUTPUT = B",
+    "variables": {"A": 1, "B": 0, "C": 1},
+    "target": "B"
+  },
+  {
+    "id": 3,
+    "rule": "OUTPUT = C",
+    "variables": {"A": 0, "B": 1, "C": 1},
+    "target": "C"
+  },
+  {
+    "id": 4,
+    "rule": "OUTPUT = A",
+    "variables": {"A": 0, "B": 1, "C": 0},
+    "target": "A"
+  },
+  {
+    "id": 5,
+    "rule": "OUTPUT = B",
+    "variables": {"A": 0, "B": 1, "C": 0},
+    "target": "B"
+  },
+  {
+    "id": 6,
+    "rule": "OUTPUT = C",
+    "variables": {"A": 1, "B": 1, "C": 0},
+    "target": "C"
+  },
+  {
+    "id": 7,
+    "rule": "OUTPUT = A",
+    "variables": {"A": 1, "B": 1, "C": 0},
+    "target": "A"
+  },
+  {
+    "id": 8,
+    "rule": "OUTPUT = B",
+    "variables": {"A": 0, "B": 0, "C": 1},
+    "target": "B"
+  },
+  {
+    "id": 9,
+    "rule": "OUTPUT = C",
+    "variables": {"A": 1, "B": 0, "C": 1},
+    "target": "C"
+  },
+  {
+    "id": 10,
+    "rule": "OUTPUT = A",
+    "variables": {"A": 1, "B": 0, "C": 1},
+    "target": "A"
+  },
+  {
+    "id": 11,
+    "rule": "OUTPUT = B",
+    "variables": {"A": 1, "B": 1, "C": 0},
+    "target": "B"
+  },
+  {
+    "id": 12,
+    "rule": "OUTPUT = C",
+    "variables": {"A": 0, "B": 1, "C": 1},
+    "target": "C"
+  },
+  {
+    "id": 13,
+    "rule": "OUTPUT = A",
+    "variables": {"A": 0, "B": 1, "C": 1},
+    "target": "A"
+  },
+  {
+    "id": 14,
+    "rule": "OUTPUT = B",
+    "variables": {"A": 0, "B": 1, "C": 0},
+    "target": "B"
+  },
+  {
+    "id": 15,
+    "rule": "OUTPUT = C",
+    "variables": {"A": 1, "B": 1, "C": 0},
+    "target": "C"
+  },
+  {
+    "id": 16,
+    "rule": "OUTPUT = A",
+    "variables": {"A": 1, "B": 1, "C": 1},
+    "target": "A"
+  },
+  {
+    "id": 17,
+    "rule": "OUTPUT = B",
+    "variables": {"A": 0, "B": 0, "C": 1},
+    "target": "B"
+  },
+  {
+    "id": 18,
+    "rule": "OUTPUT = C",
+    "variables": {"A": 1, "B": 0, "C": 0},
+    "target": "C"
+  },
+  {
+    "id": 19,
+    "rule": "OUTPUT = A",
+    "variables": {"A": 0, "B": 0, "C": 0},
+    "target": "A"
+  },
+  {
+    "id": 20,
+    "rule": "OUTPUT = B",
+    "variables": {"A": 1, "B": 0, "C": 1},
+    "target": "B"
+  }
+]

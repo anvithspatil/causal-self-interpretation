@@ -1,0 +1,131 @@
+{
+  "experiment": "V5.1",
+  "model": "Qwen/Qwen3-4B",
+  "device": "mps",
+  "localization_n": 3,
+  "evaluation_n": 3,
+  "candidates": {
+    "A": {
+      "layer": 34,
+      "token": 28,
+      "mean_difference": 190.25,
+      "observations": 1
+    },
+    "B": {
+      "layer": 34,
+      "token": 24,
+      "mean_difference": 168.25,
+      "observations": 1
+    },
+    "C": {
+      "layer": 34,
+      "token": 29,
+      "mean_difference": 157.5,
+      "observations": 1
+    }
+  },
+  "self_report_accuracy": 0.6666666666666666,
+  "causal_grounding_rate": 0.0,
+  "median_specificity_ratio": 0.5,
+  "examples": [
+    {
+      "id": 4,
+      "true_factor": "A",
+      "self_report": "A",
+      "self_report_correct": true,
+      "clean_margin": -1.28125,
+      "corrupted_margin": 0.796875,
+      "target_corruption_effect": 2.078125,
+      "patch_matrix": {
+        "A": {
+          "layer": 34,
+          "token": 28,
+          "patched_margin": 0.796875,
+          "effect": 0.0
+        },
+        "B": {
+          "layer": 34,
+          "token": 24,
+          "patched_margin": 0.78125,
+          "effect": -0.015625
+        },
+        "C": {
+          "layer": 34,
+          "token": 29,
+          "patched_margin": 0.828125,
+          "effect": 0.03125
+        }
+      },
+      "matched_effect": 0.0,
+      "mean_mismatched_effect": 0.0234375,
+      "specificity_ratio": 0.0,
+      "causal_grounding": false
+    },
+    {
+      "id": 5,
+      "true_factor": "B",
+      "self_report": "B",
+      "self_report_correct": true,
+      "clean_margin": 0.703125,
+      "corrupted_margin": -0.5,
+      "target_corruption_effect": -1.203125,
+      "patch_matrix": {
+        "A": {
+          "layer": 34,
+          "token": 28,
+          "patched_margin": -0.5,
+          "effect": 0.0
+        },
+        "B": {
+          "layer": 34,
+          "token": 24,
+          "patched_margin": -0.484375,
+          "effect": 0.015625
+        },
+        "C": {
+          "layer": 34,
+          "token": 29,
+          "patched_margin": -0.46875,
+          "effect": 0.03125
+        }
+      },
+      "matched_effect": 0.015625,
+      "mean_mismatched_effect": 0.015625,
+      "specificity_ratio": 1.0,
+      "causal_grounding": false
+    },
+    {
+      "id": 6,
+      "true_factor": "C",
+      "self_report": "UNKNOWN",
+      "self_report_correct": false,
+      "clean_margin": -0.84375,
+      "corrupted_margin": 1.75,
+      "target_corruption_effect": 2.59375,
+      "patch_matrix": {
+        "A": {
+          "layer": 34,
+          "token": 28,
+          "patched_margin": 1.75,
+          "effect": 0.0
+        },
+        "B": {
+          "layer": 34,
+          "token": 24,
+          "patched_margin": 1.75,
+          "effect": 0.0
+        },
+        "C": {
+          "layer": 34,
+          "token": 29,
+          "patched_margin": 1.75,
+          "effect": 0.0
+        }
+      },
+      "matched_effect": 0.0,
+      "mean_mismatched_effect": 0.0,
+      "specificity_ratio": Infinity,
+      "causal_grounding": false
+    }
+  ]
+}

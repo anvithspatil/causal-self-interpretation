@@ -1,0 +1,189 @@
+{
+  "experiment": "V5.2",
+  "model": "Qwen/Qwen3-4B",
+  "device": "mps",
+  "localization_n": 6,
+  "evaluation_n": 6,
+  "best_layer": 34,
+  "layer_separability": [
+    {
+      "layer": 34,
+      "A_B": 15.988926887512207,
+      "A_C": 19.54157066345215,
+      "B_C": 18.122331619262695,
+      "mean_pairwise_distance": 17.884276390075684
+    },
+    {
+      "layer": 33,
+      "A_B": 12.280547142028809,
+      "A_C": 15.02901554107666,
+      "B_C": 13.090994834899902,
+      "mean_pairwise_distance": 13.466852506001791
+    },
+    {
+      "layer": 32,
+      "A_B": 10.382631301879883,
+      "A_C": 12.529694557189941,
+      "B_C": 10.4282808303833,
+      "mean_pairwise_distance": 11.113535563151041
+    },
+    {
+      "layer": 31,
+      "A_B": 9.165581703186035,
+      "A_C": 10.935065269470215,
+      "B_C": 9.091497421264648,
+      "mean_pairwise_distance": 9.730714797973633
+    },
+    {
+      "layer": 30,
+      "A_B": 7.874869346618652,
+      "A_C": 9.675180435180664,
+      "B_C": 7.589092254638672,
+      "mean_pairwise_distance": 8.379714012145996
+    },
+    {
+      "layer": 29,
+      "A_B": 6.881975173950195,
+      "A_C": 8.312539100646973,
+      "B_C": 6.580406188964844,
+      "mean_pairwise_distance": 7.258306821187337
+    },
+    {
+      "layer": 28,
+      "A_B": 6.045612335205078,
+      "A_C": 7.475095272064209,
+      "B_C": 5.595877170562744,
+      "mean_pairwise_distance": 6.372194925944011
+    },
+    {
+      "layer": 27,
+      "A_B": 5.3887434005737305,
+      "A_C": 6.590240001678467,
+      "B_C": 4.867961883544922,
+      "mean_pairwise_distance": 5.61564842859904
+    },
+    {
+      "layer": 26,
+      "A_B": 4.717716693878174,
+      "A_C": 5.81587028503418,
+      "B_C": 4.329412460327148,
+      "mean_pairwise_distance": 4.954333146413167
+    },
+    {
+      "layer": 25,
+      "A_B": 4.3789963722229,
+      "A_C": 5.391407012939453,
+      "B_C": 3.9991633892059326,
+      "mean_pairwise_distance": 4.589855591456096
+    },
+    {
+      "layer": 35,
+      "A_B": 4.072390079498291,
+      "A_C": 5.090391635894775,
+      "B_C": 4.126400470733643,
+      "mean_pairwise_distance": 4.429727395375569
+    },
+    {
+      "layer": 24,
+      "A_B": 4.082831859588623,
+      "A_C": 5.046631336212158,
+      "B_C": 3.665250778198242,
+      "mean_pairwise_distance": 4.264904657999675
+    }
+  ],
+  "self_report_accuracy": 1.0,
+  "internal_prediction_accuracy": 1.0,
+  "self_report_internal_alignment": 1.0,
+  "examples": [
+    {
+      "id": 7,
+      "true_factor": "A",
+      "self_report": "A",
+      "self_report_correct": true,
+      "internal_prediction": "A",
+      "internal_prediction_correct": true,
+      "self_report_internal_alignment": true,
+      "layer": 34,
+      "distances": {
+        "A": 7.702070713043213,
+        "B": 18.25899887084961,
+        "C": 20.27676010131836
+      }
+    },
+    {
+      "id": 10,
+      "true_factor": "A",
+      "self_report": "A",
+      "self_report_correct": true,
+      "internal_prediction": "A",
+      "internal_prediction_correct": true,
+      "self_report_internal_alignment": true,
+      "layer": 34,
+      "distances": {
+        "A": 7.298431873321533,
+        "B": 18.182605743408203,
+        "C": 21.06871795654297
+      }
+    },
+    {
+      "id": 8,
+      "true_factor": "B",
+      "self_report": "B",
+      "self_report_correct": true,
+      "internal_prediction": "B",
+      "internal_prediction_correct": true,
+      "self_report_internal_alignment": true,
+      "layer": 34,
+      "distances": {
+        "A": 18.55821418762207,
+        "B": 10.23701286315918,
+        "C": 19.72414207458496
+      }
+    },
+    {
+      "id": 11,
+      "true_factor": "B",
+      "self_report": "B",
+      "self_report_correct": true,
+      "internal_prediction": "B",
+      "internal_prediction_correct": true,
+      "self_report_internal_alignment": true,
+      "layer": 34,
+      "distances": {
+        "A": 17.2786922454834,
+        "B": 6.919161319732666,
+        "C": 17.889101028442383
+      }
+    },
+    {
+      "id": 9,
+      "true_factor": "C",
+      "self_report": "C",
+      "self_report_correct": true,
+      "internal_prediction": "C",
+      "internal_prediction_correct": true,
+      "self_report_internal_alignment": true,
+      "layer": 34,
+      "distances": {
+        "A": 20.258718490600586,
+        "B": 19.451406478881836,
+        "C": 8.7941312789917
+      }
+    },
+    {
+      "id": 12,
+      "true_factor": "C",
+      "self_report": "C",
+      "self_report_correct": true,
+      "internal_prediction": "C",
+      "internal_prediction_correct": true,
+      "self_report_internal_alignment": true,
+      "layer": 34,
+      "distances": {
+        "A": 19.848709106445312,
+        "B": 18.26892852783203,
+        "C": 5.330244541168213
+      }
+    }
+  ]
+}

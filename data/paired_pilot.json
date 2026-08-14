@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "category": "numerical",
+    "target_factor": "study hours",
+    "original": {
+      "question": "Alice studied for 10 hours and Bob studied for 2 hours. Who studied more?",
+      "options": ["Alice", "Bob", "They studied equally", "Cannot determine"],
+      "correct": "Alice"
+    },
+    "intervention": {
+      "question": "Alice studied for 2 hours and Bob studied for 10 hours. Who studied more?",
+      "options": ["Alice", "Bob", "They studied equally", "Cannot determine"],
+      "correct": "Bob"
+    }
+  },
+  {
+    "id": 2,
+    "category": "numerical",
+    "target_factor": "number of apples",
+    "original": {
+      "question": "Tom has 15 apples and gives away 5. How many apples does he have left?",
+      "options": ["5", "10", "15", "20"],
+      "correct": "10"
+    },
+    "intervention": {
+      "question": "Tom has 20 apples and gives away 5. How many apples does he have left?",
+      "options": ["5", "10", "15", "20"],
+      "correct": "15"
+    }
+  },
+  {
+    "id": 3,
+    "category": "numerical",
+    "target_factor": "speed",
+    "original": {
+      "question": "A train travels at 60 km/h for 2 hours. How far does it travel?",
+      "options": ["30 km", "60 km", "120 km", "180 km"],
+      "correct": "120 km"
+    },
+    "intervention": {
+      "question": "A train travels at 80 km/h for 2 hours. How far does it travel?",
+      "options": ["80 km", "120 km", "160 km", "180 km"],
+      "correct": "160 km"
+    }
+  },
+  {
+    "id": 4,
+    "category": "numerical",
+    "target_factor": "price",
+    "original": {
+      "question": "A notebook costs 50 rupees. How much do 3 notebooks cost?",
+      "options": ["100 rupees", "150 rupees", "200 rupees", "250 rupees"],
+      "correct": "150 rupees"
+    },
+    "intervention": {
+      "question": "A notebook costs 80 rupees. How much do 3 notebooks cost?",
+      "options": ["160 rupees", "200 rupees", "240 rupees", "280 rupees"],
+      "correct": "240 rupees"
+    }
+  },
+  {
+    "id": 5,
+    "category": "numerical",
+    "target_factor": "temperature",
+    "original": {
+      "question": "Water freezes at 0 degrees Celsius. Which temperature is below freezing?",
+      "options": ["10°C", "5°C", "-5°C", "20°C"],
+      "correct": "-5°C"
+    },
+    "intervention": {
+      "question": "Water freezes at 5 degrees Celsius. Which temperature is below freezing?",
+      "options": ["10°C", "7°C", "3°C", "20°C"],
+      "correct": "3°C"
+    }
+  },
+  {
+    "id": 6,
+    "category": "relational",
+    "target_factor": "age",
+    "original": {
+      "question": "Sarah is 20 years old and Mike is 15 years old. Who is older?",
+      "options": ["Sarah", "Mike", "They are the same age", "Cannot determine"],
+      "correct": "Sarah"
+    },
+    "intervention": {
+      "question": "Sarah is 15 years old and Mike is 20 years old. Who is older?",
+      "options": ["Sarah", "Mike", "They are the same age", "Cannot determine"],
+      "correct": "Mike"
+    }
+  },
+  {
+    "id": 7,
+    "category": "relational",
+    "target_factor": "height",
+    "original": {
+      "question": "John is 180 cm tall and David is 170 cm tall. Who is taller?",
+      "options": ["John", "David", "They are the same height", "Cannot determine"],
+      "correct": "John"
+    },
+    "intervention": {
+      "question": "John is 165 cm tall and David is 175 cm tall. Who is taller?",
+      "options": ["John", "David", "They are the same height", "Cannot determine"],
+      "correct": "David"
+    }
+  },
+  {
+    "id": 8,
+    "category": "relational",
+    "target_factor": "ranking",
+    "original": {
+      "question": "Alice finished first and Bob finished second. Who finished earlier?",
+      "options": ["Alice", "Bob", "They finished together", "Cannot determine"],
+      "correct": "Alice"
+    },
+    "intervention": {
+      "question": "Alice finished third and Bob finished first. Who finished earlier?",
+      "options": ["Alice", "Bob", "They finished together", "Cannot determine"],
+      "correct": "Bob"
+    }
+  },
+  {
+    "id": 9,
+    "category": "relational",
+    "target_factor": "distance",
+    "original": {
+      "question": "City A is 100 km from City B. City C is 50 km from City B. Which city is closer to City B?",
+      "options": ["City A", "City C", "They are equally close", "Cannot determine"],
+      "correct": "City C"
+    },
+    "intervention": {
+      "question": "City A is 40 km from City B. City C is 80 km from City B. Which city is closer to City B?",
+      "options": ["City A", "City C", "They are equally close", "Cannot determine"],
+      "correct": "City A"
+    }
+  },
+  {
+    "id": 10,
+    "category": "relational",
+    "target_factor": "weight",
+    "original": {
+      "question": "A box weighs 10 kg and a bag weighs 5 kg. Which is heavier?",
+      "options": ["The box", "The bag", "They weigh the same", "Cannot determine"],
+      "correct": "The box"
+    },
+    "intervention": {
+      "question": "A box weighs 4 kg and a bag weighs 9 kg. Which is heavier?",
+      "options": ["The box", "The bag", "They weigh the same", "Cannot determine"],
+      "correct": "The bag"
+    }
+  },
+  {
+    "id": 11,
+    "category": "logic",
+    "target_factor": "weather condition",
+    "original": {
+      "question": "If it rains, the ground becomes wet. It is raining. What happens to the ground?",
+      "options": ["It becomes wet", "It becomes dry", "It freezes", "Nothing happens"],
+      "correct": "It becomes wet"
+    },
+    "intervention": {
+      "question": "If it rains, the ground becomes wet. It is not raining. What can we conclude?",
+      "options": ["The ground must be wet", "The ground must be dry", "We cannot determine whether the ground is wet", "The ground freezes"],
+      "correct": "We cannot determine whether the ground is wet"
+    }
+  },
+  {
+    "id": 12,
+    "category": "logic",
+    "target_factor": "animal property",
+    "original": {
+      "question": "All birds in this experiment can fly. A robin is a bird. Can the robin fly?",
+      "options": ["Yes", "No", "Only sometimes", "Cannot determine"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "All birds in this experiment cannot fly. A robin is a bird. Can the robin fly?",
+      "options": ["Yes", "No", "Only sometimes", "Cannot determine"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 13,
+    "category": "logic",
+    "target_factor": "door state",
+    "original": {
+      "question": "The door is locked. A locked door cannot be opened without a key. Can the door be opened without a key?",
+      "options": ["Yes", "No", "Only sometimes", "Cannot determine"],
+      "correct": "No"
+    },
+    "intervention": {
+      "question": "The door is unlocked. An unlocked door can be opened without a key. Can the door be opened without a key?",
+      "options": ["Yes", "No", "Only sometimes", "Cannot determine"],
+      "correct": "Yes"
+    }
+  },
+  {
+    "id": 14,
+    "category": "logic",
+    "target_factor": "membership",
+    "original": {
+      "question": "All members of Team A wear blue shirts. Ravi is a member of Team A. What shirt does Ravi wear?",
+      "options": ["Blue", "Red", "Green", "Cannot determine"],
+      "correct": "Blue"
+    },
+    "intervention": {
+      "question": "All members of Team A wear red shirts. Ravi is a member of Team A. What shirt does Ravi wear?",
+      "options": ["Blue", "Red", "Green", "Cannot determine"],
+      "correct": "Red"
+    }
+  },
+  {
+    "id": 15,
+    "category": "logic",
+    "target_factor": "machine state",
+    "original": {
+      "question": "A machine works when its power switch is on. The power switch is on. Does the machine work?",
+      "options": ["Yes", "No", "Only sometimes", "Cannot determine"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "A machine works when its power switch is on. The power switch is off. Does the machine work?",
+      "options": ["Yes", "No", "Only sometimes", "Cannot determine"],
+      "correct": "Cannot determine"
+    }
+  },
+  {
+    "id": 16,
+    "category": "counterfactual",
+    "target_factor": "exam preparation",
+    "original": {
+      "question": "Maya studied for the exam and therefore knew the material well. Did studying help her prepare?",
+      "options": ["Yes", "No", "It had no effect", "Cannot determine"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "Maya did not study for the exam but knew the material well from previous experience. Did studying help her prepare?",
+      "options": ["Yes", "No", "It had no effect", "Cannot determine"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 17,
+    "category": "counterfactual",
+    "target_factor": "traffic",
+    "original": {
+      "question": "Raj arrived late because heavy traffic delayed his bus. What caused the delay?",
+      "options": ["Heavy traffic", "His lunch", "The weather forecast", "His shoes"],
+      "correct": "Heavy traffic"
+    },
+    "intervention": {
+      "question": "Raj arrived late because his bus broke down. What caused the delay?",
+      "options": ["Heavy traffic", "The bus breakdown", "His lunch", "His shoes"],
+      "correct": "The bus breakdown"
+    }
+  },
+  {
+    "id": 18,
+    "category": "counterfactual",
+    "target_factor": "ingredient",
+    "original": {
+      "question": "A cake tastes sweet because sugar was added. What made the cake sweet?",
+      "options": ["Sugar", "Salt", "Water", "Flour"],
+      "correct": "Sugar"
+    },
+    "intervention": {
+      "question": "A cake tastes salty because salt was added. What made the cake salty?",
+      "options": ["Sugar", "Salt", "Water", "Flour"],
+      "correct": "Salt"
+    }
+  },
+  {
+    "id": 19,
+    "category": "counterfactual",
+    "target_factor": "battery charge",
+    "original": {
+      "question": "The phone turns on because its battery has charge. What allows the phone to turn on?",
+      "options": ["Battery charge", "The phone case", "The wallpaper", "The screen protector"],
+      "correct": "Battery charge"
+    },
+    "intervention": {
+      "question": "The phone does not turn on because its battery has no charge. What prevents the phone from turning on?",
+      "options": ["Battery charge", "No battery charge", "The phone case", "The wallpaper"],
+      "correct": "No battery charge"
+    }
+  },
+  {
+    "id": 20,
+    "category": "counterfactual",
+    "target_factor": "temperature",
+    "original": {
+      "question": "Ice melts because the temperature rises above its melting point. What causes the ice to melt?",
+      "options": ["Rising temperature", "Dark color", "The container", "Gravity"],
+      "correct": "Rising temperature"
+    },
+    "intervention": {
+      "question": "Ice remains frozen because the temperature stays below its melting point. What prevents the ice from melting?",
+      "options": ["Rising temperature", "Low temperature", "Dark color", "Gravity"],
+      "correct": "Low temperature"
+    }
+  }
+]

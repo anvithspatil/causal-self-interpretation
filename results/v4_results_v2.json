@@ -1,0 +1,582 @@
+[
+  {
+    "id": 1,
+    "rule": "OUTPUT = A",
+    "original_variables": {
+      "A": 1,
+      "B": 0,
+      "C": 1
+    },
+    "true_causal_factor": "A",
+    "known_original_output": 1,
+    "model_self_report": "A",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 1
+    },
+    "target_output": 0,
+    "target_behavior_changed": true,
+    "control_factor": "B",
+    "control_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 1
+    },
+    "control_output": 1,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 2,
+    "rule": "OUTPUT = B",
+    "original_variables": {
+      "A": 1,
+      "B": 0,
+      "C": 1
+    },
+    "true_causal_factor": "B",
+    "known_original_output": 0,
+    "model_self_report": "B",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 1
+    },
+    "target_output": 1,
+    "target_behavior_changed": true,
+    "control_factor": "A",
+    "control_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 1
+    },
+    "control_output": 0,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 3,
+    "rule": "OUTPUT = C",
+    "original_variables": {
+      "A": 0,
+      "B": 1,
+      "C": 1
+    },
+    "true_causal_factor": "C",
+    "known_original_output": 1,
+    "model_self_report": "A",
+    "self_report_correct": false,
+    "target_intervention": {
+      "A": 0,
+      "B": 1,
+      "C": 0
+    },
+    "target_output": 0,
+    "target_behavior_changed": true,
+    "control_factor": "B",
+    "control_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 1
+    },
+    "control_output": 1,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": false
+  },
+  {
+    "id": 4,
+    "rule": "OUTPUT = A",
+    "original_variables": {
+      "A": 0,
+      "B": 1,
+      "C": 0
+    },
+    "true_causal_factor": "A",
+    "known_original_output": 0,
+    "model_self_report": "A",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 0
+    },
+    "target_output": 1,
+    "target_behavior_changed": true,
+    "control_factor": "B",
+    "control_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "control_output": 0,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 5,
+    "rule": "OUTPUT = B",
+    "original_variables": {
+      "A": 0,
+      "B": 1,
+      "C": 0
+    },
+    "true_causal_factor": "B",
+    "known_original_output": 1,
+    "model_self_report": "B",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "target_output": 0,
+    "target_behavior_changed": true,
+    "control_factor": "A",
+    "control_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 0
+    },
+    "control_output": 1,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 6,
+    "rule": "OUTPUT = C",
+    "original_variables": {
+      "A": 1,
+      "B": 1,
+      "C": 0
+    },
+    "true_causal_factor": "C",
+    "known_original_output": 0,
+    "model_self_report": "C",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 1
+    },
+    "target_output": 1,
+    "target_behavior_changed": true,
+    "control_factor": "A",
+    "control_intervention": {
+      "A": 0,
+      "B": 1,
+      "C": 0
+    },
+    "control_output": 0,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 7,
+    "rule": "OUTPUT = A",
+    "original_variables": {
+      "A": 1,
+      "B": 1,
+      "C": 0
+    },
+    "true_causal_factor": "A",
+    "known_original_output": 1,
+    "model_self_report": "A",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 0,
+      "B": 1,
+      "C": 0
+    },
+    "target_output": 0,
+    "target_behavior_changed": true,
+    "control_factor": "B",
+    "control_intervention": {
+      "A": 1,
+      "B": 0,
+      "C": 0
+    },
+    "control_output": 1,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 8,
+    "rule": "OUTPUT = B",
+    "original_variables": {
+      "A": 0,
+      "B": 0,
+      "C": 1
+    },
+    "true_causal_factor": "B",
+    "known_original_output": 0,
+    "model_self_report": "A",
+    "self_report_correct": false,
+    "target_intervention": {
+      "A": 0,
+      "B": 1,
+      "C": 1
+    },
+    "target_output": 1,
+    "target_behavior_changed": true,
+    "control_factor": "A",
+    "control_intervention": {
+      "A": 1,
+      "B": 0,
+      "C": 1
+    },
+    "control_output": 0,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": false
+  },
+  {
+    "id": 9,
+    "rule": "OUTPUT = C",
+    "original_variables": {
+      "A": 1,
+      "B": 0,
+      "C": 1
+    },
+    "true_causal_factor": "C",
+    "known_original_output": 1,
+    "model_self_report": "A",
+    "self_report_correct": false,
+    "target_intervention": {
+      "A": 1,
+      "B": 0,
+      "C": 0
+    },
+    "target_output": 0,
+    "target_behavior_changed": true,
+    "control_factor": "B",
+    "control_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 1
+    },
+    "control_output": 1,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": false
+  },
+  {
+    "id": 10,
+    "rule": "OUTPUT = A",
+    "original_variables": {
+      "A": 1,
+      "B": 0,
+      "C": 1
+    },
+    "true_causal_factor": "A",
+    "known_original_output": 1,
+    "model_self_report": "A",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 1
+    },
+    "target_output": 0,
+    "target_behavior_changed": true,
+    "control_factor": "B",
+    "control_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 1
+    },
+    "control_output": 1,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 11,
+    "rule": "OUTPUT = B",
+    "original_variables": {
+      "A": 1,
+      "B": 1,
+      "C": 0
+    },
+    "true_causal_factor": "B",
+    "known_original_output": 1,
+    "model_self_report": "B",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 1,
+      "B": 0,
+      "C": 0
+    },
+    "target_output": 0,
+    "target_behavior_changed": true,
+    "control_factor": "A",
+    "control_intervention": {
+      "A": 0,
+      "B": 1,
+      "C": 0
+    },
+    "control_output": 1,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 12,
+    "rule": "OUTPUT = C",
+    "original_variables": {
+      "A": 0,
+      "B": 1,
+      "C": 1
+    },
+    "true_causal_factor": "C",
+    "known_original_output": 1,
+    "model_self_report": "A",
+    "self_report_correct": false,
+    "target_intervention": {
+      "A": 0,
+      "B": 1,
+      "C": 0
+    },
+    "target_output": 0,
+    "target_behavior_changed": true,
+    "control_factor": "A",
+    "control_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 1
+    },
+    "control_output": 1,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": false
+  },
+  {
+    "id": 13,
+    "rule": "OUTPUT = A",
+    "original_variables": {
+      "A": 0,
+      "B": 1,
+      "C": 1
+    },
+    "true_causal_factor": "A",
+    "known_original_output": 0,
+    "model_self_report": "A",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 1
+    },
+    "target_output": 1,
+    "target_behavior_changed": true,
+    "control_factor": "B",
+    "control_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 1
+    },
+    "control_output": 0,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 14,
+    "rule": "OUTPUT = B",
+    "original_variables": {
+      "A": 0,
+      "B": 1,
+      "C": 0
+    },
+    "true_causal_factor": "B",
+    "known_original_output": 1,
+    "model_self_report": "B",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "target_output": 0,
+    "target_behavior_changed": true,
+    "control_factor": "A",
+    "control_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 0
+    },
+    "control_output": 1,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 15,
+    "rule": "OUTPUT = C",
+    "original_variables": {
+      "A": 1,
+      "B": 1,
+      "C": 0
+    },
+    "true_causal_factor": "C",
+    "known_original_output": 0,
+    "model_self_report": "C",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 1
+    },
+    "target_output": 1,
+    "target_behavior_changed": true,
+    "control_factor": "A",
+    "control_intervention": {
+      "A": 0,
+      "B": 1,
+      "C": 0
+    },
+    "control_output": 0,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 16,
+    "rule": "OUTPUT = A",
+    "original_variables": {
+      "A": 1,
+      "B": 1,
+      "C": 1
+    },
+    "true_causal_factor": "A",
+    "known_original_output": 1,
+    "model_self_report": "A",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 0,
+      "B": 1,
+      "C": 1
+    },
+    "target_output": 0,
+    "target_behavior_changed": true,
+    "control_factor": "B",
+    "control_intervention": {
+      "A": 1,
+      "B": 0,
+      "C": 1
+    },
+    "control_output": 1,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 17,
+    "rule": "OUTPUT = B",
+    "original_variables": {
+      "A": 0,
+      "B": 0,
+      "C": 1
+    },
+    "true_causal_factor": "B",
+    "known_original_output": 0,
+    "model_self_report": "A",
+    "self_report_correct": false,
+    "target_intervention": {
+      "A": 0,
+      "B": 1,
+      "C": 1
+    },
+    "target_output": 1,
+    "target_behavior_changed": true,
+    "control_factor": "C",
+    "control_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "control_output": 0,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": false
+  },
+  {
+    "id": 18,
+    "rule": "OUTPUT = C",
+    "original_variables": {
+      "A": 1,
+      "B": 0,
+      "C": 0
+    },
+    "true_causal_factor": "C",
+    "known_original_output": 0,
+    "model_self_report": "A",
+    "self_report_correct": false,
+    "target_intervention": {
+      "A": 1,
+      "B": 0,
+      "C": 1
+    },
+    "target_output": 1,
+    "target_behavior_changed": true,
+    "control_factor": "A",
+    "control_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "control_output": 0,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": false
+  },
+  {
+    "id": 19,
+    "rule": "OUTPUT = A",
+    "original_variables": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "true_causal_factor": "A",
+    "known_original_output": 0,
+    "model_self_report": "A",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 1,
+      "B": 0,
+      "C": 0
+    },
+    "target_output": 1,
+    "target_behavior_changed": true,
+    "control_factor": "C",
+    "control_intervention": {
+      "A": 0,
+      "B": 0,
+      "C": 1
+    },
+    "control_output": 0,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  },
+  {
+    "id": 20,
+    "rule": "OUTPUT = B",
+    "original_variables": {
+      "A": 1,
+      "B": 0,
+      "C": 1
+    },
+    "true_causal_factor": "B",
+    "known_original_output": 0,
+    "model_self_report": "B",
+    "self_report_correct": true,
+    "target_intervention": {
+      "A": 1,
+      "B": 1,
+      "C": 1
+    },
+    "target_output": 1,
+    "target_behavior_changed": true,
+    "control_factor": "C",
+    "control_intervention": {
+      "A": 1,
+      "B": 0,
+      "C": 0
+    },
+    "control_output": 0,
+    "control_behavior_changed": false,
+    "causal_prediction_correct": true
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "category": "binary_causal",
+    "target_factor": "switch state",
+    "original": {
+      "question": "The light turns on when the switch is ON. The switch is ON. Is the light ON?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The light turns on when the switch is ON. The switch is OFF. Is the light ON?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 2,
+    "category": "binary_causal",
+    "target_factor": "door lock state",
+    "original": {
+      "question": "A locked door cannot be opened without a key. The door is locked. Can it be opened without a key?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    },
+    "intervention": {
+      "question": "An unlocked door can be opened without a key. The door is unlocked. Can it be opened without a key?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    }
+  },
+  {
+    "id": 3,
+    "category": "binary_causal",
+    "target_factor": "machine power state",
+    "original": {
+      "question": "The machine runs when the power button is ON. The power button is ON. Does the machine run?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The machine runs when the power button is ON. The power button is OFF. Does the machine run?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 4,
+    "category": "binary_causal",
+    "target_factor": "battery state",
+    "original": {
+      "question": "The phone turns on when the battery has charge. The battery has charge. Does the phone turn on?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The phone turns on when the battery has charge. The battery has no charge. Does the phone turn on?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 5,
+    "category": "binary_causal",
+    "target_factor": "temperature",
+    "original": {
+      "question": "Water is liquid when the temperature is above 0°C. The temperature is 20°C. Is the water liquid?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "Water is liquid when the temperature is above 0°C. The temperature is -10°C. Is the water liquid?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 6,
+    "category": "binary_causal",
+    "target_factor": "switch state",
+    "original": {
+      "question": "The fan runs when the switch is ON. The switch is ON. Is the fan running?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The fan runs when the switch is ON. The switch is OFF. Is the fan running?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 7,
+    "category": "binary_causal",
+    "target_factor": "button state",
+    "original": {
+      "question": "The alarm sounds when the alarm button is pressed. The button is pressed. Does the alarm sound?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The alarm sounds when the alarm button is pressed. The button is not pressed. Does the alarm sound?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 8,
+    "category": "binary_causal",
+    "target_factor": "ingredient",
+    "original": {
+      "question": "The soup tastes salty because salt was added. Salt was added. Does the soup taste salty?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The soup tastes salty because salt was added. Salt was not added. Does the soup taste salty?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 9,
+    "category": "binary_causal",
+    "target_factor": "rain",
+    "original": {
+      "question": "The ground becomes wet when it rains. It is raining. Is the ground wet?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The ground becomes wet when it rains. It is not raining. Is the ground wet?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 10,
+    "category": "binary_causal",
+    "target_factor": "heating",
+    "original": {
+      "question": "Ice melts when it is heated. The ice is heated. Does the ice melt?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "Ice melts when it is heated. The ice is not heated. Does the ice melt?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 11,
+    "category": "binary_causal",
+    "target_factor": "fuel supply",
+    "original": {
+      "question": "The engine runs when it has fuel. The engine has fuel. Does the engine run?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The engine runs when it has fuel. The engine has no fuel. Does the engine run?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 12,
+    "category": "binary_causal",
+    "target_factor": "water supply",
+    "original": {
+      "question": "The plant grows when it receives water. The plant receives water. Does the plant grow?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The plant grows when it receives water. The plant receives no water. Does the plant grow?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 13,
+    "category": "binary_causal",
+    "target_factor": "power supply",
+    "original": {
+      "question": "The computer starts when it receives power. The computer receives power. Does it start?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The computer starts when it receives power. The computer receives no power. Does it start?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 14,
+    "category": "binary_causal",
+    "target_factor": "door state",
+    "original": {
+      "question": "The door opens when the handle is pulled. The handle is pulled. Does the door open?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The door opens when the handle is pulled. The handle is not pulled. Does the door open?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 15,
+    "category": "binary_causal",
+    "target_factor": "button state",
+    "original": {
+      "question": "The elevator moves when the button is pressed. The button is pressed. Does the elevator move?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The elevator moves when the button is pressed. The button is not pressed. Does the elevator move?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 16,
+    "category": "binary_causal",
+    "target_factor": "light level",
+    "original": {
+      "question": "The sensor activates when light is present. Light is present. Does the sensor activate?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The sensor activates when light is present. No light is present. Does the sensor activate?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 17,
+    "category": "binary_causal",
+    "target_factor": "pressure",
+    "original": {
+      "question": "The valve opens when pressure is high. Pressure is high. Does the valve open?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The valve opens when pressure is high. Pressure is low. Does the valve open?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 18,
+    "category": "binary_causal",
+    "target_factor": "motion",
+    "original": {
+      "question": "The security alarm activates when motion is detected. Motion is detected. Does the alarm activate?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The security alarm activates when motion is detected. No motion is detected. Does the alarm activate?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 19,
+    "category": "binary_causal",
+    "target_factor": "sound",
+    "original": {
+      "question": "The microphone activates when sound is detected. Sound is detected. Does the microphone activate?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The microphone activates when sound is detected. No sound is detected. Does the microphone activate?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  },
+  {
+    "id": 20,
+    "category": "binary_causal",
+    "target_factor": "motion",
+    "original": {
+      "question": "The camera records when motion is detected. Motion is detected. Does the camera record?",
+      "options": ["Yes", "No"],
+      "correct": "Yes"
+    },
+    "intervention": {
+      "question": "The camera records when motion is detected. No motion is detected. Does the camera record?",
+      "options": ["Yes", "No"],
+      "correct": "No"
+    }
+  }
+]

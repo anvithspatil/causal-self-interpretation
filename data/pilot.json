@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Alice studied for 10 hours and Bob studied for 2 hours. Who studied more?",
+    "answer": "Alice",
+    "target_factor": "study time"
+  },
+  {
+    "id": 2,
+    "question": "A red ball and a blue ball are on a table. Which ball is red?",
+    "answer": "The red ball",
+    "target_factor": "color"
+  },
+  {
+    "id": 3,
+    "question": "Tom has 15 apples and gives away 5. How many apples does Tom have left?",
+    "answer": "10",
+    "target_factor": "subtraction"
+  },
+  {
+    "id": 4,
+    "question": "The train travels at 60 km/h for 2 hours. How far does it travel?",
+    "answer": "120 km",
+    "target_factor": "speed and time"
+  },
+  {
+    "id": 5,
+    "question": "Sarah is older than Mike. Mike is older than John. Who is the youngest?",
+    "answer": "John",
+    "target_factor": "age ordering"
+  }
+]

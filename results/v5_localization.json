@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 20,
+    "target": "B",
+    "clean_margin": 0.046875,
+    "corrupted_margin": 1.171875,
+    "scores": [
+      {
+        "layer": 7,
+        "token": 24,
+        "restoration": 1.0694444444444444
+      },
+      {
+        "layer": 4,
+        "token": 24,
+        "restoration": 1.0277777777777777
+      },
+      {
+        "layer": 6,
+        "token": 24,
+        "restoration": 1.0277777777777777
+      },
+      {
+        "layer": 8,
+        "token": 24,
+        "restoration": 1.0277777777777777
+      },
+      {
+        "layer": 1,
+        "token": 24,
+        "restoration": 1.0138888888888888
+      },
+      {
+        "layer": 2,
+        "token": 24,
+        "restoration": 1.0138888888888888
+      },
+      {
+        "layer": 3,
+        "token": 24,
+        "restoration": 1.0138888888888888
+      },
+      {
+        "layer": 5,
+        "token": 24,
+        "restoration": 1.0138888888888888
+      },
+      {
+        "layer": 11,
+        "token": 24,
+        "restoration": 1.0138888888888888
+      },
+      {
+        "layer": 0,
+        "token": 24,
+        "restoration": 1.0
+      },
+      {
+        "layer": 10,
+        "token": 24,
+        "restoration": 1.0
+      },
+      {
+        "layer": 34,
+        "token": 42,
+        "restoration": 0.9722222222222222
+      },
+      {
+        "layer": 9,
+        "token": 24,
+        "restoration": 0.9583333333333334
+      },
+      {
+        "layer": 12,
+        "token": 24,
+        "restoration": 0.9583333333333334
+      },
+      {
+        "layer": 33,
+        "token": 42,
+        "restoration": 0.9166666666666666
+      },
+      {
+        "layer": 23,
+        "token": 24,
+        "restoration": 0.9027777777777778
+      },
+      {
+        "layer": 32,
+        "token": 42,
+        "restoration": 0.9027777777777778
+      },
+      {
+        "layer": 13,
+        "token": 24,
+        "restoration": 0.875
+      },
+      {
+        "layer": 22,
+        "token": 24,
+        "restoration": 0.875
+      },
+      {
+        "layer": 21,
+        "token": 24,
+        "restoration": 0.8611111111111112
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "target": "C",
+    "clean_margin": -0.84375,
+    "corrupted_margin": 1.75,
+    "scores": [
+      {
+        "layer": 11,
+        "token": 29,
+        "restoration": 1.0481927710843373
+      },
+      {
+        "layer": 12,
+        "token": 29,
+        "restoration": 1.0421686746987953
+      },
+      {
+        "layer": 14,
+        "token": 29,
+        "restoration": 1.0421686746987953
+      },
+      {
+        "layer": 13,
+        "token": 29,
+        "restoration": 1.0301204819277108
+      },
+      {
+        "layer": 22,
+        "token": 29,
+        "restoration": 1.0301204819277108
+      },
+      {
+        "layer": 23,
+        "token": 29,
+        "restoration": 1.0301204819277108
+      },
+      {
+        "layer": 6,
+        "token": 29,
+        "restoration": 1.0240963855421688
+      },
+      {
+        "layer": 4,
+        "token": 29,
+        "restoration": 1.0180722891566265
+      },
+      {
+        "layer": 7,
+        "token": 29,
+        "restoration": 1.0180722891566265
+      },
+      {
+        "layer": 10,
+        "token": 29,
+        "restoration": 1.0180722891566265
+      },
+      {
+        "layer": 15,
+        "token": 29,
+        "restoration": 1.0180722891566265
+      },
+      {
+        "layer": 1,
+        "token": 29,
+        "restoration": 1.0120481927710843
+      },
+      {
+        "layer": 2,
+        "token": 29,
+        "restoration": 1.0120481927710843
+      },
+      {
+        "layer": 3,
+        "token": 29,
+        "restoration": 1.0120481927710843
+      },
+      {
+        "layer": 5,
+        "token": 29,
+        "restoration": 1.0120481927710843
+      },
+      {
+        "layer": 25,
+        "token": 29,
+        "restoration": 1.0120481927710843
+      },
+      {
+        "layer": 0,
+        "token": 29,
+        "restoration": 1.0060240963855422
+      },
+      {
+        "layer": 20,
+        "token": 29,
+        "restoration": 1.0060240963855422
+      },
+      {
+        "layer": 21,
+        "token": 29,
+        "restoration": 1.0060240963855422
+      },
+      {
+        "layer": 24,
+        "token": 29,
+        "restoration": 1.0060240963855422
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "target": "C",
+    "clean_margin": -0.84375,
+    "corrupted_margin": 1.75,
+    "scores": [
+      {
+        "layer": 11,
+        "token": 29,
+        "restoration": 1.0481927710843373
+      },
+      {
+        "layer": 12,
+        "token": 29,
+        "restoration": 1.0421686746987953
+      },
+      {
+        "layer": 14,
+        "token": 29,
+        "restoration": 1.0421686746987953
+      },
+      {
+        "layer": 13,
+        "token": 29,
+        "restoration": 1.0301204819277108
+      },
+      {
+        "layer": 22,
+        "token": 29,
+        "restoration": 1.0301204819277108
+      },
+      {
+        "layer": 23,
+        "token": 29,
+        "restoration": 1.0301204819277108
+      },
+      {
+        "layer": 6,
+        "token": 29,
+        "restoration": 1.0240963855421688
+      },
+      {
+        "layer": 4,
+        "token": 29,
+        "restoration": 1.0180722891566265
+      },
+      {
+        "layer": 7,
+        "token": 29,
+        "restoration": 1.0180722891566265
+      },
+      {
+        "layer": 10,
+        "token": 29,
+        "restoration": 1.0180722891566265
+      },
+      {
+        "layer": 15,
+        "token": 29,
+        "restoration": 1.0180722891566265
+      },
+      {
+        "layer": 1,
+        "token": 29,
+        "restoration": 1.0120481927710843
+      },
+      {
+        "layer": 2,
+        "token": 29,
+        "restoration": 1.0120481927710843
+      },
+      {
+        "layer": 3,
+        "token": 29,
+        "restoration": 1.0120481927710843
+      },
+      {
+        "layer": 5,
+        "token": 29,
+        "restoration": 1.0120481927710843
+      },
+      {
+        "layer": 25,
+        "token": 29,
+        "restoration": 1.0120481927710843
+      },
+      {
+        "layer": 0,
+        "token": 29,
+        "restoration": 1.0060240963855422
+      },
+      {
+        "layer": 20,
+        "token": 29,
+        "restoration": 1.0060240963855422
+      },
+      {
+        "layer": 21,
+        "token": 29,
+        "restoration": 1.0060240963855422
+      },
+      {
+        "layer": 24,
+        "token": 29,
+        "restoration": 1.0060240963855422
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "target": "B",
+    "clean_margin": 0.703125,
+    "corrupted_margin": -0.5,
+    "scores": [
+      {
+        "layer": 35,
+        "token": 42,
+        "restoration": 1.844155844155844
+      },
+      {
+        "layer": 2,
+        "token": 24,
+        "restoration": 1.0129870129870129
+      },
+      {
+        "layer": 1,
+        "token": 24,
+        "restoration": 1.0
+      },
+      {
+        "layer": 4,
+        "token": 24,
+        "restoration": 1.0
+      },
+      {
+        "layer": 5,
+        "token": 24,
+        "restoration": 1.0
+      },
+      {
+        "layer": 6,
+        "token": 24,
+        "restoration": 1.0
+      },
+      {
+        "layer": 34,
+        "token": 42,
+        "restoration": 1.0
+      },
+      {
+        "layer": 0,
+        "token": 24,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 3,
+        "token": 24,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 7,
+        "token": 24,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 32,
+        "token": 42,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 33,
+        "token": 42,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 14,
+        "token": 24,
+        "restoration": 0.974025974025974
+      },
+      {
+        "layer": 15,
+        "token": 24,
+        "restoration": 0.974025974025974
+      },
+      {
+        "layer": 10,
+        "token": 24,
+        "restoration": 0.961038961038961
+      },
+      {
+        "layer": 11,
+        "token": 24,
+        "restoration": 0.961038961038961
+      },
+      {
+        "layer": 12,
+        "token": 24,
+        "restoration": 0.961038961038961
+      },
+      {
+        "layer": 13,
+        "token": 24,
+        "restoration": 0.961038961038961
+      },
+      {
+        "layer": 9,
+        "token": 24,
+        "restoration": 0.948051948051948
+      },
+      {
+        "layer": 28,
+        "token": 42,
+        "restoration": 0.948051948051948
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "target": "A",
+    "clean_margin": 1.21875,
+    "corrupted_margin": -1.390625,
+    "scores": [
+      {
+        "layer": 35,
+        "token": 42,
+        "restoration": 1.3892215568862276
+      },
+      {
+        "layer": 3,
+        "token": 19,
+        "restoration": 1.0598802395209581
+      },
+      {
+        "layer": 4,
+        "token": 19,
+        "restoration": 1.0538922155688624
+      },
+      {
+        "layer": 2,
+        "token": 19,
+        "restoration": 1.029940119760479
+      },
+      {
+        "layer": 5,
+        "token": 19,
+        "restoration": 1.0239520958083832
+      },
+      {
+        "layer": 1,
+        "token": 19,
+        "restoration": 1.0179640718562875
+      },
+      {
+        "layer": 0,
+        "token": 19,
+        "restoration": 1.0
+      },
+      {
+        "layer": 6,
+        "token": 19,
+        "restoration": 1.0
+      },
+      {
+        "layer": 34,
+        "token": 42,
+        "restoration": 0.9940119760479041
+      },
+      {
+        "layer": 7,
+        "token": 19,
+        "restoration": 0.9580838323353293
+      },
+      {
+        "layer": 32,
+        "token": 42,
+        "restoration": 0.9520958083832335
+      },
+      {
+        "layer": 33,
+        "token": 42,
+        "restoration": 0.9520958083832335
+      },
+      {
+        "layer": 8,
+        "token": 19,
+        "restoration": 0.9041916167664671
+      },
+      {
+        "layer": 9,
+        "token": 19,
+        "restoration": 0.8682634730538922
+      },
+      {
+        "layer": 10,
+        "token": 19,
+        "restoration": 0.8502994011976048
+      },
+      {
+        "layer": 11,
+        "token": 19,
+        "restoration": 0.8263473053892215
+      },
+      {
+        "layer": 28,
+        "token": 42,
+        "restoration": 0.8203592814371258
+      },
+      {
+        "layer": 30,
+        "token": 42,
+        "restoration": 0.7425149700598802
+      },
+      {
+        "layer": 31,
+        "token": 42,
+        "restoration": 0.7425149700598802
+      },
+      {
+        "layer": 12,
+        "token": 19,
+        "restoration": 0.7305389221556886
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "target": "B",
+    "clean_margin": 0.703125,
+    "corrupted_margin": -0.5,
+    "scores": [
+      {
+        "layer": 35,
+        "token": 42,
+        "restoration": 1.844155844155844
+      },
+      {
+        "layer": 2,
+        "token": 24,
+        "restoration": 1.0129870129870129
+      },
+      {
+        "layer": 1,
+        "token": 24,
+        "restoration": 1.0
+      },
+      {
+        "layer": 4,
+        "token": 24,
+        "restoration": 1.0
+      },
+      {
+        "layer": 5,
+        "token": 24,
+        "restoration": 1.0
+      },
+      {
+        "layer": 6,
+        "token": 24,
+        "restoration": 1.0
+      },
+      {
+        "layer": 34,
+        "token": 42,
+        "restoration": 1.0
+      },
+      {
+        "layer": 0,
+        "token": 24,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 3,
+        "token": 24,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 7,
+        "token": 24,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 32,
+        "token": 42,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 33,
+        "token": 42,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 14,
+        "token": 24,
+        "restoration": 0.974025974025974
+      },
+      {
+        "layer": 15,
+        "token": 24,
+        "restoration": 0.974025974025974
+      },
+      {
+        "layer": 10,
+        "token": 24,
+        "restoration": 0.961038961038961
+      },
+      {
+        "layer": 11,
+        "token": 24,
+        "restoration": 0.961038961038961
+      },
+      {
+        "layer": 12,
+        "token": 24,
+        "restoration": 0.961038961038961
+      },
+      {
+        "layer": 13,
+        "token": 24,
+        "restoration": 0.961038961038961
+      },
+      {
+        "layer": 9,
+        "token": 24,
+        "restoration": 0.948051948051948
+      },
+      {
+        "layer": 28,
+        "token": 42,
+        "restoration": 0.948051948051948
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "target": "A",
+    "clean_margin": 1.25,
+    "corrupted_margin": -1.15625,
+    "scores": [
+      {
+        "layer": 35,
+        "token": 42,
+        "restoration": 1.4415584415584415
+      },
+      {
+        "layer": 1,
+        "token": 19,
+        "restoration": 1.0064935064935066
+      },
+      {
+        "layer": 0,
+        "token": 19,
+        "restoration": 1.0
+      },
+      {
+        "layer": 2,
+        "token": 19,
+        "restoration": 1.0
+      },
+      {
+        "layer": 4,
+        "token": 19,
+        "restoration": 1.0
+      },
+      {
+        "layer": 3,
+        "token": 19,
+        "restoration": 0.9935064935064936
+      },
+      {
+        "layer": 5,
+        "token": 19,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 6,
+        "token": 19,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 34,
+        "token": 42,
+        "restoration": 0.9805194805194806
+      },
+      {
+        "layer": 7,
+        "token": 19,
+        "restoration": 0.9675324675324676
+      },
+      {
+        "layer": 33,
+        "token": 42,
+        "restoration": 0.9415584415584416
+      },
+      {
+        "layer": 32,
+        "token": 42,
+        "restoration": 0.9285714285714286
+      },
+      {
+        "layer": 8,
+        "token": 19,
+        "restoration": 0.922077922077922
+      },
+      {
+        "layer": 9,
+        "token": 19,
+        "restoration": 0.9155844155844156
+      },
+      {
+        "layer": 10,
+        "token": 19,
+        "restoration": 0.9025974025974026
+      },
+      {
+        "layer": 11,
+        "token": 19,
+        "restoration": 0.8831168831168831
+      },
+      {
+        "layer": 14,
+        "token": 19,
+        "restoration": 0.8701298701298701
+      },
+      {
+        "layer": 15,
+        "token": 19,
+        "restoration": 0.8636363636363636
+      },
+      {
+        "layer": 16,
+        "token": 19,
+        "restoration": 0.8571428571428571
+      },
+      {
+        "layer": 17,
+        "token": 19,
+        "restoration": 0.8506493506493507
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "target": "A",
+    "clean_margin": -1.984375,
+    "corrupted_margin": 0.90625,
+    "scores": [
+      {
+        "layer": 3,
+        "token": 19,
+        "restoration": 1.0108108108108107
+      },
+      {
+        "layer": 4,
+        "token": 19,
+        "restoration": 1.0108108108108107
+      },
+      {
+        "layer": 34,
+        "token": 42,
+        "restoration": 1.0108108108108107
+      },
+      {
+        "layer": 32,
+        "token": 42,
+        "restoration": 1.0054054054054054
+      },
+      {
+        "layer": 33,
+        "token": 42,
+        "restoration": 1.0054054054054054
+      },
+      {
+        "layer": 0,
+        "token": 19,
+        "restoration": 0.9945945945945946
+      },
+      {
+        "layer": 2,
+        "token": 19,
+        "restoration": 0.9891891891891892
+      },
+      {
+        "layer": 1,
+        "token": 19,
+        "restoration": 0.9783783783783784
+      },
+      {
+        "layer": 5,
+        "token": 19,
+        "restoration": 0.9675675675675676
+      },
+      {
+        "layer": 28,
+        "token": 42,
+        "restoration": 0.9405405405405406
+      },
+      {
+        "layer": 30,
+        "token": 42,
+        "restoration": 0.8648648648648649
+      },
+      {
+        "layer": 31,
+        "token": 42,
+        "restoration": 0.8594594594594595
+      },
+      {
+        "layer": 6,
+        "token": 19,
+        "restoration": 0.8432432432432433
+      },
+      {
+        "layer": 7,
+        "token": 19,
+        "restoration": 0.772972972972973
+      },
+      {
+        "layer": 29,
+        "token": 42,
+        "restoration": 0.7621621621621621
+      },
+      {
+        "layer": 11,
+        "token": 19,
+        "restoration": 0.7513513513513513
+      },
+      {
+        "layer": 8,
+        "token": 19,
+        "restoration": 0.745945945945946
+      },
+      {
+        "layer": 9,
+        "token": 19,
+        "restoration": 0.7351351351351352
+      },
+      {
+        "layer": 13,
+        "token": 19,
+        "restoration": 0.7351351351351352
+      },
+      {
+        "layer": 15,
+        "token": 19,
+        "restoration": 0.7351351351351352
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "target": "A",
+    "clean_margin": 0.796875,
+    "corrupted_margin": -1.28125,
+    "scores": [
+      {
+        "layer": 35,
+        "token": 42,
+        "restoration": 1.5112781954887218
+      },
+      {
+        "layer": 5,
+        "token": 19,
+        "restoration": 1.037593984962406
+      },
+      {
+        "layer": 2,
+        "token": 19,
+        "restoration": 1.0300751879699248
+      },
+      {
+        "layer": 3,
+        "token": 19,
+        "restoration": 1.0300751879699248
+      },
+      {
+        "layer": 4,
+        "token": 19,
+        "restoration": 1.0300751879699248
+      },
+      {
+        "layer": 6,
+        "token": 19,
+        "restoration": 1.0300751879699248
+      },
+      {
+        "layer": 1,
+        "token": 19,
+        "restoration": 1.0150375939849625
+      },
+      {
+        "layer": 0,
+        "token": 19,
+        "restoration": 1.0
+      },
+      {
+        "layer": 34,
+        "token": 42,
+        "restoration": 0.9924812030075187
+      },
+      {
+        "layer": 7,
+        "token": 19,
+        "restoration": 0.9624060150375939
+      },
+      {
+        "layer": 32,
+        "token": 42,
+        "restoration": 0.9548872180451128
+      },
+      {
+        "layer": 33,
+        "token": 42,
+        "restoration": 0.9473684210526315
+      },
+      {
+        "layer": 8,
+        "token": 19,
+        "restoration": 0.9022556390977443
+      },
+      {
+        "layer": 28,
+        "token": 42,
+        "restoration": 0.849624060150376
+      },
+      {
+        "layer": 9,
+        "token": 19,
+        "restoration": 0.8270676691729323
+      },
+      {
+        "layer": 10,
+        "token": 19,
+        "restoration": 0.8045112781954887
+      },
+      {
+        "layer": 15,
+        "token": 19,
+        "restoration": 0.7894736842105263
+      },
+      {
+        "layer": 16,
+        "token": 19,
+        "restoration": 0.7819548872180451
+      },
+      {
+        "layer": 18,
+        "token": 19,
+        "restoration": 0.7819548872180451
+      },
+      {
+        "layer": 17,
+        "token": 19,
+        "restoration": 0.7744360902255639
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "target": "A",
+    "clean_margin": -1.15625,
+    "corrupted_margin": 1.25,
+    "scores": [
+      {
+        "layer": 5,
+        "token": 19,
+        "restoration": 1.0714285714285714
+      },
+      {
+        "layer": 3,
+        "token": 19,
+        "restoration": 1.0454545454545454
+      },
+      {
+        "layer": 4,
+        "token": 19,
+        "restoration": 1.0454545454545454
+      },
+      {
+        "layer": 2,
+        "token": 19,
+        "restoration": 1.0324675324675325
+      },
+      {
+        "layer": 6,
+        "token": 19,
+        "restoration": 1.025974025974026
+      },
+      {
+        "layer": 0,
+        "token": 19,
+        "restoration": 1.0064935064935066
+      },
+      {
+        "layer": 1,
+        "token": 19,
+        "restoration": 1.0
+      },
+      {
+        "layer": 34,
+        "token": 42,
+        "restoration": 0.9935064935064936
+      },
+      {
+        "layer": 7,
+        "token": 19,
+        "restoration": 0.987012987012987
+      },
+      {
+        "layer": 8,
+        "token": 19,
+        "restoration": 0.9675324675324676
+      },
+      {
+        "layer": 33,
+        "token": 42,
+        "restoration": 0.961038961038961
+      },
+      {
+        "layer": 32,
+        "token": 42,
+        "restoration": 0.9545454545454546
+      },
+      {
+        "layer": 9,
+        "token": 19,
+        "restoration": 0.935064935064935
+      },
+      {
+        "layer": 10,
+        "token": 19,
+        "restoration": 0.9155844155844156
+      },
+      {
+        "layer": 11,
+        "token": 19,
+        "restoration": 0.9155844155844156
+      },
+      {
+        "layer": 12,
+        "token": 19,
+        "restoration": 0.8506493506493507
+      },
+      {
+        "layer": 13,
+        "token": 19,
+        "restoration": 0.8441558441558441
+      },
+      {
+        "layer": 15,
+        "token": 19,
+        "restoration": 0.8311688311688312
+      },
+      {
+        "layer": 14,
+        "token": 19,
+        "restoration": 0.8246753246753247
+      },
+      {
+        "layer": 16,
+        "token": 19,
+        "restoration": 0.8051948051948052
+      }
+    ]
+  }
+]

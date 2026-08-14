@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "category": "binary_causal",
+    "target_factor": "switch state",
+    "factor_options": [
+      "sentence structure",
+      "target factor",
+      "switch state",
+      "wording of the question"
+    ],
+    "target_factor_index": 3,
+    "original": {
+      "question": "The light turns on when the switch is ON. The switch is ON. Is the light ON?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 3,
+      "self_report": "switch state",
+      "self_report_identified_target": true
+    },
+    "intervention": {
+      "question": "The light turns on when the switch is ON. The switch is OFF. Is the light ON?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 3,
+      "self_report": "switch state",
+      "self_report_identified_target": true
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  },
+  {
+    "id": 2,
+    "category": "binary_causal",
+    "target_factor": "door lock state",
+    "factor_options": [
+      "general background knowledge",
+      "sentence structure",
+      "target factor",
+      "door lock state"
+    ],
+    "target_factor_index": 4,
+    "original": {
+      "question": "A locked door cannot be opened without a key. The door is locked. Can it be opened without a key?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "general background knowledge",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "An unlocked door can be opened without a key. The door is unlocked. Can it be opened without a key?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "general background knowledge",
+      "self_report_identified_target": false
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  },
+  {
+    "id": 3,
+    "category": "binary_causal",
+    "target_factor": "machine power state",
+    "factor_options": [
+      "wording of the question",
+      "sentence structure",
+      "names of the objects",
+      "machine power state"
+    ],
+    "target_factor_index": 4,
+    "original": {
+      "question": "The machine runs when the power button is ON. The power button is ON. Does the machine run?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "wording of the question",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "The machine runs when the power button is ON. The power button is OFF. Does the machine run?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "wording of the question",
+      "self_report_identified_target": false
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  },
+  {
+    "id": 4,
+    "category": "binary_causal",
+    "target_factor": "battery state",
+    "factor_options": [
+      "general background knowledge",
+      "answer choices",
+      "order of the information",
+      "battery state"
+    ],
+    "target_factor_index": 4,
+    "original": {
+      "question": "The phone turns on when the battery has charge. The battery has charge. Does the phone turn on?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "general background knowledge",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "The phone turns on when the battery has charge. The battery has no charge. Does the phone turn on?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": false,
+      "self_report_index": 1,
+      "self_report": "general background knowledge",
+      "self_report_identified_target": false
+    },
+    "answer_changed": false,
+    "self_report_consistent": true
+  },
+  {
+    "id": 5,
+    "category": "binary_causal",
+    "target_factor": "temperature",
+    "factor_options": [
+      "target factor",
+      "names of the objects",
+      "order of the information",
+      "temperature"
+    ],
+    "target_factor_index": 4,
+    "original": {
+      "question": "Water is liquid when the temperature is above 0\u00b0C. The temperature is 20\u00b0C. Is the water liquid?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 4,
+      "self_report": "temperature",
+      "self_report_identified_target": true
+    },
+    "intervention": {
+      "question": "Water is liquid when the temperature is above 0\u00b0C. The temperature is -10\u00b0C. Is the water liquid?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": false,
+      "self_report_index": 4,
+      "self_report": "temperature",
+      "self_report_identified_target": true
+    },
+    "answer_changed": false,
+    "self_report_consistent": true
+  },
+  {
+    "id": 6,
+    "category": "binary_causal",
+    "target_factor": "switch state",
+    "factor_options": [
+      "general background knowledge",
+      "target factor",
+      "switch state",
+      "order of the information"
+    ],
+    "target_factor_index": 3,
+    "original": {
+      "question": "The fan runs when the switch is ON. The switch is ON. Is the fan running?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "general background knowledge",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "The fan runs when the switch is ON. The switch is OFF. Is the fan running?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "general background knowledge",
+      "self_report_identified_target": false
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  },
+  {
+    "id": 7,
+    "category": "binary_causal",
+    "target_factor": "button state",
+    "factor_options": [
+      "wording of the question",
+      "button state",
+      "order of the information",
+      "general background knowledge"
+    ],
+    "target_factor_index": 2,
+    "original": {
+      "question": "The alarm sounds when the alarm button is pressed. The button is pressed. Does the alarm sound?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "wording of the question",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "The alarm sounds when the alarm button is pressed. The button is not pressed. Does the alarm sound?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "wording of the question",
+      "self_report_identified_target": false
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  },
+  {
+    "id": 8,
+    "category": "binary_causal",
+    "target_factor": "ingredient",
+    "factor_options": [
+      "sentence structure",
+      "names of the objects",
+      "order of the information",
+      "ingredient"
+    ],
+    "target_factor_index": 4,
+    "original": {
+      "question": "The soup tastes salty because salt was added. Salt was added. Does the soup taste salty?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "sentence structure",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "The soup tastes salty because salt was added. Salt was not added. Does the soup taste salty?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": false,
+      "self_report_index": 1,
+      "self_report": "sentence structure",
+      "self_report_identified_target": false
+    },
+    "answer_changed": false,
+    "self_report_consistent": true
+  },
+  {
+    "id": 9,
+    "category": "binary_causal",
+    "target_factor": "rain",
+    "factor_options": [
+      "rain",
+      "sentence structure",
+      "order of the information",
+      "answer choices"
+    ],
+    "target_factor_index": 1,
+    "original": {
+      "question": "The ground becomes wet when it rains. It is raining. Is the ground wet?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "rain",
+      "self_report_identified_target": true
+    },
+    "intervention": {
+      "question": "The ground becomes wet when it rains. It is not raining. Is the ground wet?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": false,
+      "self_report_index": 1,
+      "self_report": "rain",
+      "self_report_identified_target": true
+    },
+    "answer_changed": false,
+    "self_report_consistent": true
+  },
+  {
+    "id": 10,
+    "category": "binary_causal",
+    "target_factor": "heating",
+    "factor_options": [
+      "wording of the question",
+      "heating",
+      "target factor",
+      "sentence structure"
+    ],
+    "target_factor_index": 2,
+    "original": {
+      "question": "Ice melts when it is heated. The ice is heated. Does the ice melt?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 1,
+      "model_answer": "No",
+      "correct": false,
+      "self_report_index": 1,
+      "self_report": "wording of the question",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "Ice melts when it is heated. The ice is not heated. Does the ice melt?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": false,
+      "self_report_index": 1,
+      "self_report": "wording of the question",
+      "self_report_identified_target": false
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  },
+  {
+    "id": 11,
+    "category": "binary_causal",
+    "target_factor": "fuel supply",
+    "factor_options": [
+      "fuel supply",
+      "general background knowledge",
+      "order of the information",
+      "answer choices"
+    ],
+    "target_factor_index": 1,
+    "original": {
+      "question": "The engine runs when it has fuel. The engine has fuel. Does the engine run?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "fuel supply",
+      "self_report_identified_target": true
+    },
+    "intervention": {
+      "question": "The engine runs when it has fuel. The engine has no fuel. Does the engine run?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "fuel supply",
+      "self_report_identified_target": true
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  },
+  {
+    "id": 12,
+    "category": "binary_causal",
+    "target_factor": "water supply",
+    "factor_options": [
+      "wording of the question",
+      "water supply",
+      "target factor",
+      "order of the information"
+    ],
+    "target_factor_index": 2,
+    "original": {
+      "question": "The plant grows when it receives water. The plant receives water. Does the plant grow?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "wording of the question",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "The plant grows when it receives water. The plant receives no water. Does the plant grow?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": false,
+      "self_report_index": 1,
+      "self_report": "wording of the question",
+      "self_report_identified_target": false
+    },
+    "answer_changed": false,
+    "self_report_consistent": true
+  },
+  {
+    "id": 13,
+    "category": "binary_causal",
+    "target_factor": "power supply",
+    "factor_options": [
+      "power supply",
+      "names of the objects",
+      "sentence structure",
+      "answer choices"
+    ],
+    "target_factor_index": 1,
+    "original": {
+      "question": "The computer starts when it receives power. The computer receives power. Does it start?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "power supply",
+      "self_report_identified_target": true
+    },
+    "intervention": {
+      "question": "The computer starts when it receives power. The computer receives no power. Does it start?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "power supply",
+      "self_report_identified_target": true
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  },
+  {
+    "id": 14,
+    "category": "binary_causal",
+    "target_factor": "door state",
+    "factor_options": [
+      "door state",
+      "names of the objects",
+      "general background knowledge",
+      "target factor"
+    ],
+    "target_factor_index": 1,
+    "original": {
+      "question": "The door opens when the handle is pulled. The handle is pulled. Does the door open?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "door state",
+      "self_report_identified_target": true
+    },
+    "intervention": {
+      "question": "The door opens when the handle is pulled. The handle is not pulled. Does the door open?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": false,
+      "self_report_index": 1,
+      "self_report": "door state",
+      "self_report_identified_target": true
+    },
+    "answer_changed": false,
+    "self_report_consistent": true
+  },
+  {
+    "id": 15,
+    "category": "binary_causal",
+    "target_factor": "button state",
+    "factor_options": [
+      "names of the objects",
+      "target factor",
+      "button state",
+      "general background knowledge"
+    ],
+    "target_factor_index": 3,
+    "original": {
+      "question": "The elevator moves when the button is pressed. The button is pressed. Does the elevator move?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 3,
+      "self_report": "button state",
+      "self_report_identified_target": true
+    },
+    "intervention": {
+      "question": "The elevator moves when the button is pressed. The button is not pressed. Does the elevator move?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 3,
+      "self_report": "button state",
+      "self_report_identified_target": true
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  },
+  {
+    "id": 16,
+    "category": "binary_causal",
+    "target_factor": "light level",
+    "factor_options": [
+      "answer choices",
+      "names of the objects",
+      "sentence structure",
+      "light level"
+    ],
+    "target_factor_index": 4,
+    "original": {
+      "question": "The sensor activates when light is present. Light is present. Does the sensor activate?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "answer choices",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "The sensor activates when light is present. No light is present. Does the sensor activate?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": false,
+      "self_report_index": 1,
+      "self_report": "answer choices",
+      "self_report_identified_target": false
+    },
+    "answer_changed": false,
+    "self_report_consistent": true
+  },
+  {
+    "id": 17,
+    "category": "binary_causal",
+    "target_factor": "pressure",
+    "factor_options": [
+      "pressure",
+      "general background knowledge",
+      "sentence structure",
+      "wording of the question"
+    ],
+    "target_factor_index": 1,
+    "original": {
+      "question": "The valve opens when pressure is high. Pressure is high. Does the valve open?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "pressure",
+      "self_report_identified_target": true
+    },
+    "intervention": {
+      "question": "The valve opens when pressure is high. Pressure is low. Does the valve open?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": false,
+      "self_report_index": 1,
+      "self_report": "pressure",
+      "self_report_identified_target": true
+    },
+    "answer_changed": false,
+    "self_report_consistent": true
+  },
+  {
+    "id": 18,
+    "category": "binary_causal",
+    "target_factor": "motion",
+    "factor_options": [
+      "target factor",
+      "answer choices",
+      "names of the objects",
+      "motion"
+    ],
+    "target_factor_index": 4,
+    "original": {
+      "question": "The security alarm activates when motion is detected. Motion is detected. Does the alarm activate?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 4,
+      "self_report": "motion",
+      "self_report_identified_target": true
+    },
+    "intervention": {
+      "question": "The security alarm activates when motion is detected. No motion is detected. Does the alarm activate?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 4,
+      "self_report": "motion",
+      "self_report_identified_target": true
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  },
+  {
+    "id": 19,
+    "category": "binary_causal",
+    "target_factor": "sound",
+    "factor_options": [
+      "sentence structure",
+      "order of the information",
+      "sound",
+      "target factor"
+    ],
+    "target_factor_index": 3,
+    "original": {
+      "question": "The microphone activates when sound is detected. Sound is detected. Does the microphone activate?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 2,
+      "model_option_index": 2,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "sentence structure",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "The microphone activates when sound is detected. No sound is detected. Does the microphone activate?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 3,
+      "self_report": "sound",
+      "self_report_identified_target": true
+    },
+    "answer_changed": true,
+    "self_report_consistent": false
+  },
+  {
+    "id": 20,
+    "category": "binary_causal",
+    "target_factor": "motion",
+    "factor_options": [
+      "order of the information",
+      "general background knowledge",
+      "answer choices",
+      "motion"
+    ],
+    "target_factor_index": 4,
+    "original": {
+      "question": "The camera records when motion is detected. Motion is detected. Does the camera record?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "Yes",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "order of the information",
+      "self_report_identified_target": false
+    },
+    "intervention": {
+      "question": "The camera records when motion is detected. No motion is detected. Does the camera record?",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "correct_option_index": 1,
+      "model_option_index": 1,
+      "model_answer": "No",
+      "correct": true,
+      "self_report_index": 1,
+      "self_report": "order of the information",
+      "self_report_identified_target": false
+    },
+    "answer_changed": true,
+    "self_report_consistent": true
+  }
+]
